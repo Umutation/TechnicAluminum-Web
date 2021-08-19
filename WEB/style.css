@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+
 *{
     margin:0px;
     padding:0px;
@@ -80,7 +84,36 @@ nav>ul>#contact>a:hover{
 }
 
 
+
 .logo>a>img{
 
     width:14vh;
+}
+
+#sliderView{
+    margin-top:50px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+
+#view{
+    width:100%;
+}
+
+.section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro{
+
+    margin-top:75px;
+
+}
+#whyAlu{
+
+    font-family: 'Oswald', sans-serif;
+    font-size:2.5em;
 }
