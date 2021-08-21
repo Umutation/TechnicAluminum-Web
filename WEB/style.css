@@ -229,6 +229,7 @@ background-size: cover;
     align-items: center;
     flex-direction: column  ;
     text-align: center;
+    margin-top:25vh;
 }
 
 
@@ -279,5 +280,5 @@ background-size: cover;
     font-size: 5em;
     display:flex;
     justify-content: center;
-    margin-top:150px;
+    
 }
