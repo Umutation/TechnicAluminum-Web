@@ -128,8 +128,8 @@ nav>ul>#contact>a:hover{
 .projectsGrid>ul{
 
     display:grid;
-    grid-template-rows: repeat(3, 300px);
-    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(3, 42vh);
+    grid-template-columns: repeat(3,42vh);
     grid-row-gap:50px;
     grid-column-gap:50px;
     justify-content: center;
@@ -143,8 +143,8 @@ nav>ul>#contact>a:hover{
     align-items: center;
     justify-content: center;
 
-    width:300px;
-    height: 300px;
+    width:42vh;
+    height: 42vh;
   
     background-size: cover;
 }
@@ -184,7 +184,7 @@ nav>ul>#contact>a:hover{
 }
 .projectsGrid>ul>li:hover{
     transition:0.5s;
-    width:320px;
+    width:45vh;
    
     
 }
