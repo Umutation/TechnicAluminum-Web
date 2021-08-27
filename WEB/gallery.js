@@ -1,6 +1,7 @@
 var sections = document.querySelectorAll(".galleryGrid ul"); 
 
-var index =  0 ; 
+
+var index =  0; 
 
 var leftButton = document.querySelector(".lB");
 
@@ -8,7 +9,16 @@ var rightButton = document.querySelector(".rB");
 
 var isLeft = null;
 
-arrange(0);
+
+
+function indexArrange(){
+
+ 
+    console.log("HET");
+}
+
+arrange(index, isLeft);
+
 
 
 
@@ -54,6 +64,7 @@ function arrange(index,direction){
       
         if(i==index+1||i==index-1||(index==0&&i==sections.length-1)||(index==sections.length-1&&i==0)){
 
+            sections[i].style.transition = "1s";
             sections[i].style.display = "grid";
             sections[i].style.opacity = 0.55;
 
@@ -63,33 +74,30 @@ function arrange(index,direction){
          
             if(i==index-1||(index==0&&i==sections.length-1)){
               
-                
+               
+
                 sections[i].style.gridColumn = 1; 
  
             }else if(i==index+1||(index==sections.length-1&&i==0)){
-                
+         
+
                 sections[i].style.gridColumn = 3; 
                
  
             }
 
-        
-           
-        
-
-
-              
-            
-            
-        
-          
             for(var k = 0; k<sections[i].children.length; k++){
 
                 if(k==0){
-                
-                    sections[i].children[k].children[0].style.fontSize="20px";
+                    
+                        sections[i].children[k].children[0].style.transition = "1s";
+
+                        sections[i].children[k].children[0].style.fontSize="20px";
+                    
+                  
 
                 }else{
+                    sections[i].children[k].children[0].style.transition = "0.5s";
 
                     sections[i].children[k].children[0].style.width="15vh";
                         // sections[i].children[k].children[0].style.blur = "1100px";
@@ -102,7 +110,7 @@ function arrange(index,direction){
             
        
         }else if(i==index){
-
+            sections[i].style.transition = "1s";
             sections[i].style.display = "grid";
             sections[i].style.opacity = 1;
             sections[i].style.gridColumn = 2;
@@ -113,11 +121,19 @@ function arrange(index,direction){
             for(var k = 0; k<sections[i].children.length; k++){
 
                 if(k==0){
-                
-                    sections[i].children[k].children[0].style.fontSize="2em";
+                    
+                    if(i==0){
+                        sections[i].children[k].children[0].style.transition = "1s";
+                        sections[i].children[k].children[0].style.fontSize="1.7em";
+                    }else{
+                        sections[i].children[k].children[0].style.transition = "1s";
+                        sections[i].children[k].children[0].style.fontSize="2em";
+
+                    }
+                  
 
                 }else{
-
+                    sections[i].children[k].children[0].style.transition = "1s";
                     sections[i].children[k].children[0].style.width="22vh";
                         // sections[i].children[k].children[0].style.blur = "1100px";
                 }

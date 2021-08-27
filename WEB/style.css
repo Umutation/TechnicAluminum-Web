@@ -22,7 +22,7 @@ li{
 
 nav{
 
-    height:8vh;
+    height:10vh;
     background:#49658a;
 
   
@@ -362,6 +362,7 @@ background-size: cover;
 .leftDir{
     transition:1s;
     transform: translateX(57.5vh);
+    
   
  
 }
