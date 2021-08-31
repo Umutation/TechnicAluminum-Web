@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{
+    /* background: linear-gradient(to right,	#7DF9FF, white ); */
+
+    background:#0b1d35;
+    background-image: url("../LOGOS/makinenenene.jpg"); 
+    background-size:cover; 
+
+   
+
+}
+.title{
+
+    color:#3e7a61;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    font-size: 4em;
+    display:flex;
+    justify-content: center;
+    margin-top:5vh;
+}
+
+
+.infos{
+
+    display:grid;
+    grid-template-columns:repeat(2,50vh);
+    grid-template-rows: 60vh 5vh;
+    justify-content: center;
+    align-content: center;
+
+}
+
+
+.formTitle{
+
+    font-size:2em;
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+    color:#3e7a61;
+    justify-content: center;
+    align-items:center;
+    margin-top:4vh;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.titleLine{
+
+    width:20vh;
+    display: flex;
+    height:0.5vh;
+    border:0px solid white;
+    border-radius:15px;
+    margin-top:0.5vh;
+    background:#3e7a61;
+}
+
+.contactInfo{
+
+    display:grid;
+    grid-template-rows: repeat(3, 33%);
+    justify-content: center;
+    align-items: center;
+}
+
+.contactInfo>li{
+
+    color:white;
+    font-size:1.4em;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.contactInfo>li>b{
+
+    font-size:1.1em;
+    color:#3ca87b;
+}
+
+.contactInfo>li>div{
+
+    margin-top:0.4vh;
+}
+.contactIcon{
+
+    color:#3e7a61;
+    padding: 0px 1.5vh 0px 0px;
+}
+
+
+.contactForm{
+
+    display:grid;
+    grid-template-rows: repeat(4, 25%);
+    grid-template-columns: repeat(2, 47.5%);
+    justify-content: center;
+    align-items: center;
+    grid-column-gap:5%;
+
+}
+
+.input{
+
+    width:100%;
+    height: 4vh;
+}
+
+.fullLength{
+
+    grid-column: 1/-1;
+}
+
+.fullHeight{
+
+    grid-row: 3/-1;
+    
+}
+
+
+.messageBox{
+
+    width:100%;
+    height:20vh;
+    
+}
+
+
+.buttonPar{
+
+    display:flex;
+    justify-content: center;
+    margin-bottom:55px;
+}
+.sendButton{
+
+    background:#3e7a61;
+    grid-column: 1/-1;
+    width:20vh;
+    height:5vh;
+    border:0px;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    font-size:1.5em;
+    border-radius:15px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    transition:0.5s;
+
+   
+} 
+ 
+.sendButton:hover{
+    transition:0.5s;
+    background:#61cea0;
+}
+
+
+

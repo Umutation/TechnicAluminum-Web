@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technic Aluminum</title>
+    <link href="../CSS/nav.css" rel="stylesheet">
+    <link href="../CSS/contact.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <nav>
+
+        <ul>
+            
+            
+            <li onmouseover="onMouseOver(this)" onmouseleave="mouseLeave(this)"><a href="aboutus.html">ABOUT US</a><hr></li>
+            <li onmouseover="onMouseOver(this)" onmouseleave="mouseLeave(this)"><a href="projects.html">PROJECTS</a><hr></li>
+            <li class="logo" onmouseover="logoLinesOver(this)" onmouseleave="logoLinesLeave(this)"><hr class="logoLine line1"><a href="main.html"><img src="../LOGOS/whitelogo.png"></a><hr class="logoLine line2"></li>
+            <li onmouseover="onMouseOver(this)" onmouseleave="mouseLeave(this)"><a href="gallery.html">GALLERY</a><hr></li>
+            <li id="contact" onmouseover="onMouseOver(this)" onmouseleave="mouseLeave(this)"><a href="contact.html">CONTACT</a><hr></li>
+          
+        </ul>
+
+
+    </nav>
+
+ 
+    <main class="contactMain">
+        <h1 class="title"> CONTACT US NOW! </h1>
+        <h1 class="formTitle"> CONTACT FORM  <hr class="titleLine"></h1>
+       
+        <div class="infos">
+
+            <ul class="contactInfo">
+                <li id="addressInfo">
+                    <i class="fas fa-map-marker-alt contactIcon"></i>
+                    <b>Address:</b>
+                    <div>
+                        88-100 Parrotta Dr
+                    </div>
+                </li>
+                <li id="phoneInfo">
+
+                    <i class="fas fa-phone-alt contactIcon"></i>
+                    <b>Contact Number:</b>
+
+                    <div>
+                        +1 647 451 5096
+                    </div>
+                    <div>
+                        +1 647 913 2068
+                    </div>
+                </li>
+
+                <li id="emailInfo contactIcon">
+                    <i class="fas fa-inbox contactIcon"></i>
+                    <b>Contact E-mail:</b>
+
+                    
+                    <div>
+                        technicaluminum@gmail.com
+                    </div>
+                </li>
+            </ul>
+            <ul class="contactForm">
+              
+                <li>
+                    <input type="text" class="input" placeholder = "Full Name">
+                </li>
+                <li>
+                    <input type="text" class="input" placeholder = "Phone Number">
+                </li>
+                <li class="fullLength">
+                    <input type="text" class="input" placeholder = "Email">
+                </li>
+                <li class="fullLength fullHeight">
+                    <textarea  class="messageBox" placeholder = "Message"></textarea>
+                </li>
+
+            </ul>   
+            
+        </div>
+
+        <div class="buttonPar"><button class="sendButton"> SEND</button></div>
+    </main>
+ 
+</body>
+
+<script src="../JS/navBarLine.js" ref="javascript"></script> 
+
+</html>

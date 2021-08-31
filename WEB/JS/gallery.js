@@ -1,13 +1,11 @@
 var sections = document.querySelectorAll(".galleryGrid ul"); 
 
-
 var index =  0; 
 
 var leftButton = document.querySelector(".lB");
 
 var rightButton = document.querySelector(".rB");
 
-var isLeft = null;
 
 
 
@@ -15,9 +13,10 @@ function indexArrange(){
 
  
     console.log("HET");
+
 }
 
-arrange(index, isLeft);
+arrange(index);
 
 
 
@@ -26,12 +25,12 @@ arrange(index, isLeft);
 function increaseIndex(){
 
     index++; 
-    isLeft = false; 
+     
     if(index>sections.length-1){
 
         index = 0;
     }
-    arrange(index, isLeft);
+    arrange(index);
 
    
     
@@ -42,21 +41,21 @@ function increaseIndex(){
 function decreaseIndex(){
 
     index--; 
-    isLeft = true;
+    
     if(index<0){
 
         index=sections.length-1;
     }
-    arrange(index, isLeft);
+    arrange(index);
 
    
 }
 
 
-function arrange(index,direction){ 
+function arrange(index){ 
 
     
-    console.log(index);
+
 
     for(var i = 0; i<sections.length; i++){
 
@@ -67,7 +66,6 @@ function arrange(index,direction){
             sections[i].style.transition = "1s";
             sections[i].style.display = "grid";
             sections[i].style.opacity = 0.55;
-
             sections[i].style.gridRow = 1;
 
            
@@ -77,6 +75,7 @@ function arrange(index,direction){
                
 
                 sections[i].style.gridColumn = 1; 
+
  
             }else if(i==index+1||(index==sections.length-1&&i==0)){
          
@@ -97,6 +96,7 @@ function arrange(index,direction){
                   
 
                 }else{
+
                     sections[i].children[k].children[0].style.transition = "0.5s";
 
                     sections[i].children[k].children[0].style.width="15vh";
@@ -110,6 +110,7 @@ function arrange(index,direction){
             
        
         }else if(i==index){
+            
             sections[i].style.transition = "1s";
             sections[i].style.display = "grid";
             sections[i].style.opacity = 1;

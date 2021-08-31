@@ -1,0 +1,82 @@
+body{
+    /* background: linear-gradient(to right,	#7DF9FF, white ); */
+
+    background:#0b1d35;
+    background-image: url("../LOGOS/makinenenene.jpg"); 
+    background-size:cover; 
+
+   
+
+}
+
+.galleryGrid{
+
+    display:grid;
+    
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 45vh 60vh 45vh;
+    grid-column-gap: 5vh;
+}
+
+.galleryGrid>ul{
+    display:grid; 
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 22vh);
+    grid-column-gap: 3vh;
+    grid-row-gap:2vh;
+
+}
+
+.galleryGrid>ul>li{
+
+    display:flex;
+    justify-content: center;
+}
+.galleryGrid>ul>li>img{
+
+    width:22vh;
+
+}
+
+.galleryGrid>ul>li:nth-child(1){
+
+    grid-column:1/-1;
+    text-align: center;
+    color:white;
+    
+
+}
+
+
+.pageButtons{
+
+    display:flex;
+    justify-content: space-around;
+    margin-top:50px;
+    align-items:center;
+
+}
+
+
+.pageButtons>button{
+
+    background:#00A9F4;
+    color:white;
+    border:0px;
+    width:50px;
+    height:40px;
+    border-radius:25px;
+    transition:0.5s;
+
+}
+
+
+.pageButtons>button:hover{
+
+    background:#3570bd;
+ 
+    transition:0.5s;
+
+}
