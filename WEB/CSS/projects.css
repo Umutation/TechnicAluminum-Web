@@ -1,16 +1,16 @@
 .projectsGrid{
 
     margin-top:75px;
-    height:725px;
+    height:89vh;
 }
 
 .projectsGrid>ul{
 
     display:grid;
-    grid-template-rows: repeat(3, 42vh);
+    grid-template-rows: repeat(2, 42vh);
     grid-template-columns: repeat(3,42vh);
-    grid-row-gap:50px;
-    grid-column-gap:50px;
+    grid-row-gap:5vh;
+    grid-column-gap:5vh;
     justify-content: center;
     align-items:center;
 }
@@ -108,7 +108,8 @@ background-size: cover;
     align-items: center;
     flex-direction: column  ;
     text-align: center;
-    margin-top:45vh;
+    margin-top:6vh;
+    margin-bottom:6vh;
 }
 
 

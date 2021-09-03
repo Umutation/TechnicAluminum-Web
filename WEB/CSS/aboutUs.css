@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
 body{
     /* background: linear-gradient(to right,	#7DF9FF, white ); */
 
@@ -8,3 +11,44 @@ body{
    
 
 }
+
+
+main{
+
+    margin-top:10vh;
+}
+
+
+#aboutUsGrid{
+
+    display:grid;
+   
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: repeat(3, 33%);
+
+}
+
+
+#aboutUsGrid>li>img{
+
+    width:40vh;
+    height:100%;
+}
+
+#aboutUsGrid>li{
+
+    color:white;
+    font-size:0.75em;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.bigImg{
+
+    grid-row:1/4;
+    grid-column:2;
+    justify-self: center;
+}
+

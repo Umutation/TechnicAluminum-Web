@@ -12,7 +12,7 @@ body{
 }
 .title{
 
-    color:#3e7a61;
+    color:#3ca87b;
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
     font-size: 4em;
@@ -39,7 +39,7 @@ body{
     display:flex;
     text-align: center;
     flex-direction: column;
-    color:#3e7a61;
+    color:#3ca87b;
     justify-content: center;
     align-items:center;
     margin-top:4vh;
@@ -55,7 +55,7 @@ body{
     border:0px solid white;
     border-radius:15px;
     margin-top:0.5vh;
-    background:#3e7a61;
+    background:#3ca87b;
 }
 
 .contactInfo{
@@ -86,7 +86,7 @@ body{
 }
 .contactIcon{
 
-    color:#3e7a61;
+    color:#3ca87b;
     padding: 0px 1.5vh 0px 0px;
 }
 
@@ -136,10 +136,10 @@ body{
 }
 .sendButton{
 
-    background:#3e7a61;
+    background:#34976e;
     grid-column: 1/-1;
-    width:20vh;
-    height:5vh;
+    width:11vh;
+    height:4vh;
     border:0px;
     color:white;
     font-family: 'Oswald', sans-serif;
@@ -155,7 +155,7 @@ body{
  
 .sendButton:hover{
     transition:0.5s;
-    background:#61cea0;
+    background:#56c396;
 }
 
 
