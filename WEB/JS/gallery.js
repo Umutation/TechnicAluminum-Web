@@ -6,19 +6,26 @@ var leftButton = document.querySelector(".lB");
 
 var rightButton = document.querySelector(".rB");
 
+index = window.location.href; 
 
+if(index.includes("=")){
 
+    index = index.split("=");
 
-function indexArrange(){
+    index = parseInt(index[1]);
+}else{
 
- 
-    console.log("HET");
-
+    index = 0;
 }
+
+
+
+
+
 
 arrange(index);
 
-
+console.log(index);
 
 
 
