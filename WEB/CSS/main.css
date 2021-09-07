@@ -92,3 +92,41 @@
     color:#00a9f4;
     
 }
+
+
+#projectsBut{
+    width:17vh;
+    height:5vh;
+    margin-top:6vh;
+    background:#00a9f4;
+    border-radius:15px;
+    border-width: 0px;
+    font-size:1.1em;
+    transition: 0.5s;
+    text-decoration: none;
+    color:white;
+}
+
+
+#projectsBut:hover{
+
+    width:19vh;
+    background-color:#42c6dd;
+    transition: 0.5s;
+}
+
+#dirProject{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:10vh;
+}
+
+
+.miniExp{
+
+    color:white;
+    font-size:2em;
+}

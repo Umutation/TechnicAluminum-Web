@@ -3,7 +3,7 @@ body{
 
     background:#0b1d35;
     background-image: url("../LOGOS/makinenenene.jpg"); 
-    background-size:cover; 
+    background-size:cover;
 
    
 
@@ -12,11 +12,11 @@ body{
 .galleryGrid{
 
     display:grid;
-    
     justify-content: center;
     align-items: center;
     grid-template-columns: 45vh 60vh 45vh;
     grid-column-gap: 5vh;
+    margin-bottom:15vh;
 }
 
 .galleryGrid>ul{

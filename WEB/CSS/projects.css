@@ -130,30 +130,28 @@ background-size: cover;
 
 }
 
-.priceContact>button{
+.priceContact>a>button{
     transition: 0.5s;
     margin-top:75px;
     background:#63b090;
     border:none;
-    width:100px;
-    height:40px;
-    border-radius:20px;
+    width:15vh;
+    height:5vh;
+    border-radius:15px;
+    text-decoration: none;
+    font-size:1.3em;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+   
     
 }
 
-.priceContact>button:hover{
+.priceContact>a>button:hover{
     transition: 0.5s;
-    background:#3c6956;
+    background:#408367;
+    width:17vh;
 }
-.priceContact>button>a{
 
-    text-decoration: none;
-    font-size:1.5em;
-    color:white;
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;
-
-}
 
 
 

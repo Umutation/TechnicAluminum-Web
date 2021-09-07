@@ -136,26 +136,23 @@ body{
 }
 .sendButton{
 
-    background:#34976e;
-    grid-column: 1/-1;
-    width:11vh;
-    height:4vh;
-    border:0px;
-    color:white;
-    font-family: 'Oswald', sans-serif;
-    font-size:1.5em;
+    transition: 0.5s;
+    margin-top:75px;
+    background:#63b090;
+    border:none;
+    width:15vh;
+    height:5vh;
     border-radius:15px;
-    display:flex;
-    align-items:center;
-    justify-content: center;
-    transition:0.5s;
+    color:white;
+    font-size:1.5em;
 
    
 } 
  
 .sendButton:hover{
     transition:0.5s;
-    background:#56c396;
+    background:#408367;
+    width:17vh;
 }
 
 
