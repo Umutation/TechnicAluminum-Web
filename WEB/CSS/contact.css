@@ -157,3 +157,33 @@ body{
 
 
 
+@media only screen and (max-width: 768px){
+
+    .infos{
+
+        grid-template-columns: 50vh;
+     
+        margin-bottom:25vh;
+    }
+
+    .contactForm{
+
+        grid-template-rows: 47.5%;
+        grid-row-gap:3vh;
+      
+    }
+
+    .contactForm>li:nth-child(3){
+
+        grid-row:2;
+        
+    }
+
+    .contactForm>li:nth-child(4){
+        
+        grid-row:4;
+        position:relative;
+        bottom:4vh;
+      
+    }
+}   

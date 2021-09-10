@@ -16,18 +16,20 @@ body{
 main{
 
     margin-top:10vh;
+    margin-bottom:10vh;
+
 }
 
 
 #aboutUsGrid{
 
     display:grid;
-   
     justify-content: center;
     align-items: center;
     width:100%;
-    grid-template-columns: repeat(2, 40%);
-    grid-template-rows: repeat(3, 33%);
+    grid-template-columns: repeat(2, 70vh);
+    grid-template-rows: repeat(3, 30vh);
+    grid-row-gap: 4vh;
 
 }
 
@@ -35,7 +37,7 @@ main{
 #aboutUsGrid>li>img{
 
     width:40vh;
-    height:100%;
+   
 }
 
 #aboutUsGrid>li{
@@ -47,8 +49,29 @@ main{
 }
 .bigImg{
 
-    grid-row:1/4;
-    grid-column:2;
+    grid-row:2/4;
+
     justify-self: center;
 }
 
+.logox{
+
+    justify-self: center;
+}
+
+
+
+@media only screen and (max-width: 768px){
+
+    #aboutUsGrid{
+
+        grid-template-columns: 40%;
+        grid-template-rows: repeat(5,25vh);
+        height:145vh;
+        
+    }
+
+
+
+
+}

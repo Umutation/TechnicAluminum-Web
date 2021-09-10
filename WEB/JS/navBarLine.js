@@ -2,6 +2,9 @@ var navSelections = document.querySelectorAll("nav ul li");
 
 var lines = document.querySelectorAll("nav ul li hr");
 
+var burgerBut = document.querySelector(".burger");
+
+var navBar = document.querySelector("nav");
 
 
 
@@ -43,6 +46,19 @@ function logoLinesLeave(index){
     
 }
 
+
+function menuAppear(){
+
+
+    navBar.classList.toggle("comeBack");
+}
+
+
+
+burgerBut.addEventListener("click", function(){
+
+    menuAppear();
+});
 
 
 

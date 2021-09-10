@@ -16,10 +16,7 @@
 
 <body>
 
-    <script src="../JS/navBarLine.js" ref="javascript"></script> 
-    
-    <nav>
-
+    <nav >
         <ul>
             
             
@@ -30,9 +27,22 @@
             <li id="contact" onmouseover="onMouseOver(this)" onmouseleave="mouseLeave(this)"><a href="contact.html">CONTACT</a><hr></li>
           
         </ul>
-
-
     </nav>
+    <div class="altNav">
+
+        <div><a href="main.html"><img src="../LOGOS/whitelogo.png"  class="backupLogo"/></a></div>
+
+        <div class="burger">
+
+            <div id="line1"></div>
+            <div id="line2"></div>
+            <div id="line3"></div>
+
+        </div>
+    </div>
+
+
+    <script src="../JS/navBarLine.js" ref="javascript"></script> 
 
  
     <main class="contactMain">
@@ -84,7 +94,9 @@
                     <input type="text" class="input" placeholder = "Email">
                 </li>
                 <li class="fullLength fullHeight">
+
                     <textarea  class="messageBox" placeholder = "Message"></textarea>
+                    
                 </li>
 
             </ul>   
