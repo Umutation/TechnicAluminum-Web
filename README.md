@@ -1,2 +1,2 @@
 # TechnicAluminum Web
- website for Technic Aluminium
+Website developed for Technic Aluminum.
